@@ -1,0 +1,119 @@
+body{
+    background-color:darkslateblue;
+    color: white;
+}
+
+.parent{
+    width: 100%;
+}
+.child1{
+  display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+  width: 35%;
+  height: 200px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+
+
+
+.child2{
+    display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+  width: 55%;
+}
+
+.icon{
+    width: 50px;
+    height: auto;
+}
+
+li{
+    list-style-type: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.time{
+    width: 70px;
+    height: 50px;
+    padding: 5px;
+    margin: 5px;
+    background-color: darkcyan;
+}
+
+p{
+    font-size: 20px;
+}
+
+.full{
+    width: 100%;
+}
+
+.half1{
+    width: 20%;
+    display: inline-block;
+}
+
+.half2{
+    width: 60%;
+    display: inline-block;
+}
+
+.news_date{
+    width: 70px;
+    height: 50px;
+    background-color: darkcyan;
+    padding: 5px;
+}
+
+.Details li{
+    list-style-type: disc;
+}
+
+
+/* .ing_img{
+    display: inline-block;
+    float: left;
+} */
+
+.instructors{
+    width: 100%;
+}
+.ins_img img{
+    display: inline-block;
+    width: 20%;
+    height: auto;
+}
+
+.syll_full{
+    width: 90%;
+}
+
+.syll_half1{
+    width: 20%;
+}
+
+.syll_half2{
+    width: 60%;
+}
+
+button{
+   padding: 5px;
+   background-color: aqua;
+   color: white;
+}
+
+.nav li{
+    list-style-type: none;
+    color: white;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: white;
+}
